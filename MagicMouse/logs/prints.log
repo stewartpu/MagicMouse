@@ -1,0 +1,3 @@
+22:48:51.758 [main] INFO  resources.Base - Navitaged to homepage
+22:48:54.626 [main] INFO  resources.Base - Input username and password and clicked Login button
+22:48:57.556 [main] INFO  resources.Base - Log out link is displayed, successfully logged in

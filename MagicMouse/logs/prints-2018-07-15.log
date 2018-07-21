@@ -1,0 +1,5 @@
+22:48:29.229 [main] INFO  resources.Base - Successfully clicked Add To Cart button
+22:48:33.954 [main] INFO  resources.Base - Confirmed the item and quantity in my cart: there is one Magic Mouse to be checked out
+22:48:34.039 [main] INFO  resources.Base - Successfully clicked Continue button
+22:48:49.362 [main] INFO  resources.Base - Filled out all necessary info in checkout page and clicked Purchase button
+22:48:49.449 [main] INFO  resources.Base - Successfully landed at transaction result page and order is placed

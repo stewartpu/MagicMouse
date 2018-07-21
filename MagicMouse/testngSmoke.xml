@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MagicMouseProject">
+  
+  <listeners>
+	  <listener class-name="stewartpu.MagicMouse.Listeners"/>
+  </listeners>
+  
+  <test thread-count="5" name="SmokeTest">
+    <classes>
+      <class name="stewartpu.MagicMouse.SeleniumTest">
+			<methods>
+				<exclude name="login"/>
+			</methods>
+		</class>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- MagicMouseProject -->

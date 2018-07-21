@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39044" started-at="2018-07-16T02:48:18Z" finished-at="2018-07-16T02:48:57Z">
+    <groups>
+    </groups>
+    <test name="Selenium Testing" duration-ms="38957" started-at="2018-07-16T02:48:18Z" finished-at="2018-07-16T02:48:57Z">
+      <class name="stewartpu.MagicMouse.SeleniumTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@1b2bbc3]" name="initialize" is-config="true" duration-ms="4602" started-at="2018-07-16T02:48:18Z" finished-at="2018-07-16T02:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="e2eTransaction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@1b2bbc3]" name="e2eTransaction" duration-ms="26015" started-at="2018-07-16T02:48:23Z" data-provider="getData" finished-at="2018-07-16T02:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pusu@msn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stewart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 King Street]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4167207777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eTransaction -->
+        <test-method status="PASS" signature="login()[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@1b2bbc3]" name="login" duration-ms="8105" started-at="2018-07-16T02:48:49Z" finished-at="2018-07-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@1b2bbc3]" name="tearDown" is-config="true" duration-ms="210" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stewartpu.MagicMouse.SeleniumTest -->
+    </test> <!-- Selenium Testing -->
+    <test name="REST API Testing" duration-ms="6" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+      <class name="stewartpu.MagicMouse.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:stewartpu.MagicMouse.RESTAPITest@701274]" name="deleteTwitter" duration-ms="1" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJIRA()[pri:0, instance:stewartpu.MagicMouse.RESTAPITest@701274]" name="postJIRA" duration-ms="1" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJIRA -->
+      </class> <!-- stewartpu.MagicMouse.RESTAPITest -->
+    </test> <!-- REST API Testing -->
+    <test name="Appium Testing" duration-ms="9" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+      <class name="stewartpu.MagicMouse.AppiumTest">
+        <test-method status="PASS" signature="androidTest()[pri:0, instance:stewartpu.MagicMouse.AppiumTest@16aec5c]" name="androidTest" duration-ms="2" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidTest -->
+        <test-method status="PASS" signature="iOSTest()[pri:0, instance:stewartpu.MagicMouse.AppiumTest@16aec5c]" name="iOSTest" duration-ms="1" started-at="2018-07-16T02:48:57Z" finished-at="2018-07-16T02:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSTest -->
+      </class> <!-- stewartpu.MagicMouse.AppiumTest -->
+    </test> <!-- Appium Testing -->
+  </suite> <!-- Suite -->
+</testng-results>

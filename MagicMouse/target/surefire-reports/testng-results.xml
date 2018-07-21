@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MagicMouseProject" duration-ms="32338" started-at="2018-07-16T01:35:51Z" finished-at="2018-07-16T01:36:23Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="32338" started-at="2018-07-16T01:35:51Z" finished-at="2018-07-16T01:36:23Z">
+      <class name="stewartpu.MagicMouse.SeleniumTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@20b53a]" name="initialize" is-config="true" duration-ms="4618" started-at="2018-07-16T01:35:51Z" finished-at="2018-07-16T01:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="e2eTransaction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@20b53a]" name="e2eTransaction" duration-ms="27529" started-at="2018-07-16T01:35:55Z" data-provider="getData" finished-at="2018-07-16T01:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pusu@msn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stewart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 King Street]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4167207777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eTransaction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:stewartpu.MagicMouse.SeleniumTest@20b53a]" name="tearDown" is-config="true" duration-ms="154" started-at="2018-07-16T01:36:23Z" finished-at="2018-07-16T01:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stewartpu.MagicMouse.SeleniumTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- MagicMouseProject -->
+</testng-results>
